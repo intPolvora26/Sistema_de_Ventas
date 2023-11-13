@@ -101,14 +101,14 @@ public class VentaPDF {
             //agregar celdas
             Encabezado.addCell(img);
 
-            String ruc = "0987654321001";
-            String nombre = "Fantasma Cooporation";
-            String telefono = "0987654321";
-            String direccion = "Tamarindo City";
+            String rfc = "0987654321001";
+            String nombre = "Polvora System's";
+            String telefono = "(+52)3322058309";
+            String direccion = "Guadaljara Jalisco";
             String razon = "La magia de la programacion, esta en el poder de tu imaginacion";
 
             Encabezado.addCell("");//celda vacia
-            Encabezado.addCell("RUC: " + ruc + "\nNOMBRE: " + nombre + "\nTELEFONO: " + telefono + "\nDIRECCION: " + direccion + "\nRAZON SOCIAL: " + razon);
+            Encabezado.addCell("RFC: " + rfc + "\nNOMBRE: " + nombre + "\nTELEFONO: " + telefono + "\nDIRECCION: " + direccion + "\nRAZON SOCIAL: " + razon);
             Encabezado.addCell(fecha);
             doc.add(Encabezado);
 
@@ -126,7 +126,7 @@ public class VentaPDF {
             float[] ColumnaCliente = new float[]{25f, 45f, 30f, 40f};
             tablaCliente.setWidths(ColumnaCliente);
             tablaCliente.setHorizontalAlignment(Element.ALIGN_LEFT);
-            PdfPCell cliente1 = new PdfPCell(new Phrase("Cedula/RUC: ", negrita));
+            PdfPCell cliente1 = new PdfPCell(new Phrase("RFC: ", negrita));
             PdfPCell cliente2 = new PdfPCell(new Phrase("Nombre: ", negrita));
             PdfPCell cliente3 = new PdfPCell(new Phrase("Telefono: ", negrita));
             PdfPCell cliente4 = new PdfPCell(new Phrase("Direccion: ", negrita));
