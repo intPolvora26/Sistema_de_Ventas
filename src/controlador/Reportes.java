@@ -41,7 +41,7 @@ public class Reportes {
             //formato al texto
             Paragraph parrafo = new Paragraph();
             parrafo.setAlignment(Paragraph.ALIGN_CENTER);
-            parrafo.add("Reporte creado por \nEdison Zambrano © Programador Fantasma\n\n");
+            parrafo.add("Reporte creado por \nAlejandro Garcia © Polvora System's\n\n");
             parrafo.setFont(FontFactory.getFont("Tahoma", 18, Font.BOLD, BaseColor.DARK_GRAY));
             parrafo.add("Reporte de Clientes \n\n");
 
@@ -103,7 +103,7 @@ public class Reportes {
             //formato al texto
             Paragraph parrafo = new Paragraph();
             parrafo.setAlignment(Paragraph.ALIGN_CENTER);
-            parrafo.add("Reporte creado por \nEdison Zambrano © Programador Fantasma\n\n");
+            parrafo.add("Reporte creado por \nAlejandro Garcia © Polvora System's\n\n");
             parrafo.setFont(FontFactory.getFont("Tahoma", 18, Font.BOLD, BaseColor.DARK_GRAY));
             parrafo.add("Reporte de Productos \n\n");
 
@@ -174,7 +174,7 @@ public class Reportes {
             //formato al texto
             Paragraph parrafo = new Paragraph();
             parrafo.setAlignment(Paragraph.ALIGN_CENTER);
-            parrafo.add("Reporte creado por \nEdison Zambrano © Programador Fantasma\n\n");
+            parrafo.add("Reporte creado por \nAlejandro Garcia © Polvora System's\n\n");
             parrafo.setFont(FontFactory.getFont("Tahoma", 18, Font.BOLD, BaseColor.DARK_GRAY));
             parrafo.add("Reporte de Categorias \n\n");
 
@@ -232,7 +232,7 @@ public class Reportes {
             //formato al texto
             Paragraph parrafo = new Paragraph();
             parrafo.setAlignment(Paragraph.ALIGN_CENTER);
-            parrafo.add("Reporte creado por \nEdison Zambrano © Programador Fantasma\n\n");
+            parrafo.add("Reporte creado por \nAlejandro Garcia © Polvora System's\n\n");
             parrafo.setFont(FontFactory.getFont("Tahoma", 18, Font.BOLD, BaseColor.DARK_GRAY));
             parrafo.add("Reporte de Ventas \n\n");
 
